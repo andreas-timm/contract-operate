@@ -1,0 +1,56 @@
+{
+    "name": "@andreas-timm/contract-operate",
+    "description": "Contract operate: deploy and management",
+    "version": "0.1.2",
+    "keywords": [
+        "chains",
+        "hardhat",
+        "solidity",
+        "typescript",
+        "viem"
+    ],
+    "author": "Andreas Timm <info@andreas-timm.dev>",
+    "license": "CC-BY-4.0",
+    "homepage": "https://github.com/andreas-timm/contract-operate#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andreas-timm/contract-operate.git"
+    },
+    "bugs": {
+        "url": "https://github.com/andreas-timm/contract-operate/issues"
+    },
+    "scripts": {
+        "build": "./build.sh",
+        "publish": "cd dist; npm publish --access public",
+        "prettier": "prettier --write ."
+    },
+    "module": "src/index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@eslint/js": "^9.9.1",
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+        "@types/bun": "latest",
+        "@types/chai": "^4.3.17",
+        "@types/js-yaml": "^4.0.9",
+        "@types/mocha": "^10.0.7",
+        "eslint": "^9.9.1",
+        "prettier": "^3.3.3",
+        "typescript-eslint": "^8.3.0"
+    },
+    "dependencies": {
+        "@andreas-timm/config-ts": "^0.1.0",
+        "@nomicfoundation/hardhat-viem": "^2.0.3",
+        "chai": "4.4.1",
+        "console-table-printer": "^2.12.1",
+        "hardhat": "^2.22.9",
+        "hardhat-contract-sizer": "^2.10.0",
+        "hardhat-gas-reporter": "^2.2.1",
+        "js-yaml": "^4.1.0",
+        "js-yaml-source-map": "^0.2.2",
+        "tsconfig-paths": "^4.2.0",
+        "viem": "^2.20.0"
+    },
+    "volta": {
+        "node": "20.15.1"
+    }
+}

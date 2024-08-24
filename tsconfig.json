@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext", "DOM"],
+        "target": "ESNext",
+        "module": "esnext",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "moduleDetection": "force",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noPropertyAccessFromIndexSignature": false,
+        "removeComments": true,
+        "verbatimModuleSyntax": true,
+        "outDir": "./dist/lib/esm",
+        "declaration": true
+    },
+    "include": ["./src"]
+}
